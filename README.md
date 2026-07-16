@@ -1,5 +1,8 @@
 # V-Dashboard
 
+> **Created by Antono**
+
+
 Dashboard starter template built with Vite, Vue 3, Tailwind CSS and TypeScript.
 
 Copied from https://github.com/tailwindcomponents/dashboard and converted to Vue.
