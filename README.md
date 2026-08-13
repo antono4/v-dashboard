@@ -1,52 +1,66 @@
-# V-Dashboard
+<!-- README ini dihasilkan otomatis oleh workflow .github/workflows/generate-readme.yml -->
+<!-- Jangan edit manual; perubahan akan ditim pada run berikutnya. -->
 
-> **Created by Antono**
+<h1 align="center">V-Dashboard 👋</h1>
 
+<p align="center">
+  <strong>V-Dashboard</strong>
+</p>
 
-Dashboard starter template built with Vite, Vue 3, Tailwind CSS and TypeScript.
+<p align="center">
+  <a href="https://github.com/antono4/v-dashboard"><img alt="GitHub repo" src="https://img.shields.io/badge/GitHub-antono4/v-dashboard-blue?logo=github"></a>
+  <a href="https://antono4.github.io/v-dashboard/"><img alt="Live Demo" src="https://img.shields.io/badge/Live%20Demo-Online-success?logo=githubpages"></a>
+  <img alt="Files" src="https://img.shields.io/badge/Files-33-informational">
+  <img alt="Updated" src="https://img.shields.io/badge/Updated-2026-08-13 11:22:58 WIB-lightgrey">
+</p>
 
-Copied from https://github.com/tailwindcomponents/dashboard and converted to Vue.
+---
 
-## Demo
+## 📖 Tentang
 
-https://v-dashboard.vercel.app/
+Repository **`v-dashboard`** adalah situs web pribadi / portofolio yang diterbitkan melalui **GitHub Pages**. Situs utama berada di [`https://antono4.github.io/v-dashboard/`](https://antono4.github.io/v-dashboard/).
 
-![Demo](https://i.imgur.com/RqXxEHL.gif)
+## 🗂️ Struktur Proyek
 
-Note if you have access to [Tailwind UI](https://tailwindui.com), you can follow the following steps to add it:
-
-1. Install `@tailwindcss/ui`:
-
-```sh
-yarn add @tailwindcss/ui
+```
+v-dashboard/
+├── index.html          # Halaman utama (landing / portofolio)
+├── assets/             # Aset statis (css, js, img, vendor)
+├── forms/               # Form handler (PHP)
 ```
 
-2. Add the plugin in `tailwind.config.js` without changing anything else:
+## 🛠️ Teknologi
 
-```js
-// tailwind.config.js
-module.exports = {
-  // ...
-  // rest of the config
-  plugins: [require('@tailwindcss/ui')],
-}
-```
+Berdasarkan isi repository, proyek ini menggunakan:
 
-## Project setup
-```
-yarn
-```
+- `HTML`
+- `CSS`
+- `JavaScript`
 
-### Compiles and hot-reloads for development
-```
-yarn dev
-```
+> Total **33 file** terdeteksi di repository.
 
-### Compiles and minifies for production
-```
-yarn build
+## 🚀 Menjalankan Secara Lokal
+
+Karena ini situs statis (HTML/CSS/JS/PHP), cukup buka `index.html` di browser, atau jalankan server lokal:
+
+```bash
+# Tanpa dependency
+python3 -m http.server 8000
+# lalu buka http://localhost:8000
+
+# atau dengan PHP (untuk form handler di forms/)
+php -S localhost:8000
 ```
 
-## License & copyright
+## 📬 Kontak
 
-Licensed under the [MIT License](LICENSE.md).
+- GitHub: [antono4](https://github.com/antono4)
+- Situs: [https://antono4.github.io/v-dashboard/](https://antono4.github.io/v-dashboard/)
+
+## 📄 Lisensi
+
+Lihat berkas [`LICENSE`](./LICENSE) untuk informasi lisensi.
+
+---
+
+<sub>README ini di-generate otomatis pada **2026-08-13 11:22:58 WIB** oleh GitHub Actions .</sub>
