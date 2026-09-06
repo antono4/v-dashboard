@@ -1,2 +1,32 @@
-Last updated: 2026-09-06 16:14:20 WIB
-Last updated: 2026-09-06 16:22:48 WIB
+# tailwind-dashboard
+
+
+
+## 📋 Overview
+
+This repository contains **37 files** and is built with the following technologies:
+
+Node.js, HTML, JavaScript
+
+## 🚀 Quick Start
+
+```bash
+npm install
+npm run dev
+npm run build
+```
+
+## ✨ Features
+
+- 📝 Auto-generated documentation
+
+## 🛠️ Technologies
+
+Node.js, HTML, JavaScript
+
+## 📄 License
+
+MIT License
+
+---
+*Last updated: 2026-09-06 19:21:36 WIB*
